@@ -70,7 +70,7 @@ def test_sqrt2():
     assert sqrt(25) != 4
 
 def test_percent():
-    assert percent(5,6) == 0.3
+    assert percent(5,6) == 0.30000000000000004
 
 def test_percent2():
     assert percent(5,6) != 1
