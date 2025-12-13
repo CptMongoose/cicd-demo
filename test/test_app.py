@@ -46,13 +46,31 @@ def test_log2():
     assert math.log(100) != 1
 
 def test_square():
-    assert 5*5 == 25
+    assert sqrt(5) == 25
 
 def test_square2():
-    assert 5*5 != 20
+    assert sqrt(5) != 20
 
 def test_sin():
-    assert math.sin(100) == 2
+    assert math.sin(90) == 1
 
 def test_sin2():
-    assert math.sin(100) != 1
+    assert math.sin(90) != 2
+
+def test_cos():
+    assert math.cos(90) == 0
+
+def test_cos2():
+    assert math.cos(90) != 1
+
+def test_sqrt():
+    assert math.sqrt(25) == 5
+
+def test_sqrt2():
+    assert math.sqrt(25) != 4
+
+def test_percent():
+    assert percent(5,6) == 0.3
+
+def test_percent2():
+    assert percent(5,6) != 1
