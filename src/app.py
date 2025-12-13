@@ -13,6 +13,8 @@ def div(a,b):
     return a/b
 
 def log(a):
+    if a <= 0:
+        raise ValueError("Error")
     return math.log(a)
 
 def sqaure(a):
@@ -20,3 +22,16 @@ def sqaure(a):
 
 def sin(a):
     return math.sin(a)
+
+def cos(a):
+    return math.cos(a)
+
+def sqrt(a):
+    if a < 0:
+        raise ValueError("Error")
+    return math.sqrt(a)
+
+def percent(a,b):
+    if b == 0:
+        raise ValueError("Error")
+    return (a / 100.0) * b
