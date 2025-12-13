@@ -17,7 +17,7 @@ def log(a):
         raise ValueError("Error")
     return math.log(a)
 
-def sqaure(a):
+def square(a):
     return a*a
 
 def sin(a):

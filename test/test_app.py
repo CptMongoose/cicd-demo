@@ -9,7 +9,7 @@ from app import add
 from app import sub
 from app import mult
 from app import div
-from app import sqaure
+from app import square
 from app import sin
 from app import cos
 from app import sqrt
@@ -40,34 +40,34 @@ def test_div2():
     assert div(10,5) != 1
 
 def test_log():
-    assert math.log(100) == 2
+    assert math.log(100) == 4.605170185988092
 
 def test_log2():
     assert math.log(100) != 1
 
 def test_square():
-    assert sqrt(5) == 25
+    assert square(5) == 25
 
 def test_square2():
-    assert sqrt(5) != 20
+    assert square(5) != 20
 
 def test_sin():
-    assert math.sin(90) == 1
+    assert sin(90) == 0.8939966636005579
 
 def test_sin2():
-    assert math.sin(90) != 2
+    assert sin(90) != 2
 
 def test_cos():
-    assert math.cos(90) == 0
+    assert cos(90) == -0.4480736161291701
 
 def test_cos2():
-    assert math.cos(90) != 1
+    assert cos(90) != 1
 
 def test_sqrt():
-    assert math.sqrt(25) == 5
+    assert sqrt(25) == 5
 
 def test_sqrt2():
-    assert math.sqrt(25) != 4
+    assert sqrt(25) != 4
 
 def test_percent():
     assert percent(5,6) == 0.3
